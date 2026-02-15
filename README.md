@@ -48,8 +48,7 @@ Export a portable ZIP (Optional)
 ```
 ---
 
-Notes
-If Windows SmartScreen complains: that’s normal for unsigned executables. Make a special exception for the build created.
+Notes: If Windows SmartScreen complains: that’s normal for unsigned executables. Make a special exception for the build created.
 Some antivirus tools may flag one-file executables because of bundling behavior. Same treatment.
 
 ---
