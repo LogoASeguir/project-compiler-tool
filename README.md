@@ -36,25 +36,29 @@ pip install -r requirements.txt
 python app_compiler.py
 ```
 
+---
+
 # Usage Flow
+```bash
 Select your project folder (or main script)
 Pick build mode: one-file or one-folder
-(Optional) Set app metadata:
-Product name
-Version
-Company
-Icon
-
+Set app metadata (Optional) 
 Build
-Export a portable ZIP (optional)
+Export a portable ZIP (Optional)
+```
+---
 
 Notes
 If Windows SmartScreen complains: that’s normal for unsigned executables. Make a special exception for the build created.
-Some antivirus tools may flag one-file executables because of bundling behavior.
+Some antivirus tools may flag one-file executables because of bundling behavior. Same treatment.
 
-If your build fails, try:
+---
+
+# If your build fails, try:
+```bash
 updating PyInstaller
 running the tool from a fresh venv
 ensuring your script runs cleanly before packaging
+```
 
 Hopefully will be handy :)
