@@ -12,7 +12,7 @@ from tkinter import filedialog, messagebox, ttk
 class CompilerApp:
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("Python App Compiler")
+        self.root.title("Project Compiler Tool")
         self.root.geometry("560x750")
         self.root.resizable(False, False)
         
