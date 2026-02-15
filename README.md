@@ -5,7 +5,7 @@ with metadata, versioning, icon support and portable packaging.
 
 ## Demo
 <p align="center">
-  <img src="demo_gui.png" width="60%">
+  <img src="demo_gui.png" width="30%">
 </p>
 Currently supports Windows builds.
 
