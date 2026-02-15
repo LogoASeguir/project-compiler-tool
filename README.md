@@ -4,9 +4,9 @@ GUI wrapper around PyInstaller for building Windows executables
 with metadata, versioning, icon support and portable packaging.
 
 ## Demo
-
-![Create Demo](demo_gui.png)
-
+<p align="center">
+  <img src="demo_gui.png" width="60%">
+</p>
 Currently supports Windows builds.
 
 ## Features
