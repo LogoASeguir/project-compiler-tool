@@ -1,5 +1,7 @@
 # Project Compiler Tool (PyInstaller GUI)
 
+---
+
 GUI wrapper around **PyInstaller** for building Windows executables with:
 version metadata injection, icon support, and portable packaging.
 
@@ -31,20 +33,20 @@ version metadata injection, icon support, and portable packaging.
 
 ### 1) Install requirements
 ```bash
-pip install -r requirements.txt
+1) pip install -r requirements.txt
 2) Run the app
-python app_compiler.py
+3) python app_compiler.py
 ```
 
 ---
 
 # Usage Flow
 ```bash
-Select your project folder (or main script)
-Pick build mode: one-file or one-folder
-Set app metadata (Optional) 
-Build
-Export a portable ZIP (Optional)
+1) Select your project folder (or main script)
+2) Pick build mode: one-file or one-folder
+3) Set app metadata (Optional) 
+4) Build
+(Export a portable ZIP (Optional))
 ```
 ---
 
@@ -55,9 +57,10 @@ Some antivirus tools may flag one-file executables because of bundling behavior.
 
 # If your build fails, try:
 ```bash
-updating PyInstaller
-running the tool from a fresh venv
-ensuring your script runs cleanly before packaging
+1) ensure your script runs cleanly before packaging
+1) updating PyInstaller
+2) running the tool from a fresh venv
+
 ```
 
-Hopefully will be handy :)
+Hopefully everything will work accordingly! Don't hesitate to reach out in any case! :)
