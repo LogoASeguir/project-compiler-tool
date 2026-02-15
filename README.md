@@ -64,3 +64,9 @@ Some antivirus tools may flag one-file executables because of bundling behavior.
 ```
 
 Hopefully everything will work accordingly! Don't hesitate to reach out in any case! :)
+---
+
+### Author
+
+Built by [Renato Pedrosa]  
+Part of a growing ecosystem of Python-based developer tools.
