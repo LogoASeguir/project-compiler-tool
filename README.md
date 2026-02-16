@@ -1,5 +1,7 @@
 # Project Compiler Tool (PyInstaller GUI)
-
+![Status](https://img.shields.io/badge/status-local-lightgrey)
+![License](https://img.shields.io/github/license/LogoASeguir/tool-project-compiler)
+![Issues](https://img.shields.io/github/issues/LogoASeguir/tool-project-compiler)
 ---
 
 GUI wrapper around **PyInstaller** for building Windows executables with:
