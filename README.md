@@ -53,7 +53,7 @@ version metadata injection, icon support, and portable packaging.
 ---
 
 Notes: If Windows SmartScreen complains: that’s normal for unsigned executables. Make a special exception for the build created.
-Some antivirus tools may flag one-file executables because of bundling behavior. Same treatment.
+Most antivirus will flag one-file executables because of bundling behavior. Same method, create an exception.
 
 ---
 
